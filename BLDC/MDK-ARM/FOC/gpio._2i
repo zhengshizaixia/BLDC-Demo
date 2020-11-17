@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\User\RTT -I ..\User\Function -I ..\User\FarmeWork -I ..\User\MCUDriver -I ..\User\PeripheralDriver -I ..\User\APP
+-I.\RTE\_FOC
+-ID:\SoftWare\Keil\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+-ID:\SoftWare\Keil\Keil\STM32F1xx_DFP\1.0.5\Device\Include
+-D__UVISION_VERSION="531" -D_RTE_ -DSTM32F10X_HD -D_RTE_ -DUSE_HAL_DRIVER -DSTM32F103xE
+-o foc\gpio.o --omf_browse foc\gpio.crf --depend foc\gpio.d --feedback "FOC\FOC.fed" "../Src/gpio.c"

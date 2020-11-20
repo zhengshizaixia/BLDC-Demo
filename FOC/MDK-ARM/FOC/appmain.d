@@ -1,0 +1,10 @@
+foc\appmain.o: ..\User\APP\APPMain.c
+foc\appmain.o: ..\User\APP\APPMain.h
+foc\appmain.o: D:\SoftWare\Keil\ARM\ARMCC\Bin\..\include\stdint.h
+foc\appmain.o: ..\User\FarmeWork\FarmeWorkMain.h
+foc\appmain.o: ..\User\MCUDriver\MCUDriverMain.h
+foc\appmain.o: ..\User\PeripheralDriver\PeripheralDriverMain.h
+foc\appmain.o: ..\User\Function\FunctionMain.h
+foc\appmain.o: D:\SoftWare\Keil\ARM\ARMCC\Bin\..\include\stdio.h
+foc\appmain.o: ..\User\RTT\SEGGER_RTT.h
+foc\appmain.o: ..\User\RTT\SEGGER_RTT_Conf.h
